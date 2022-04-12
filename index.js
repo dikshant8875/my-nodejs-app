@@ -4,7 +4,7 @@ const port = 3000
 const HOST = '0.0.0.0';
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello Dikshant the Nodejs app is working fine')
 })
 
 app.listen(port, () => {
